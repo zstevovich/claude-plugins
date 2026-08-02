@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zstevovich",
+  "description": "Claude Code pluginovi i skillovi Zorana Stevovića",
+  "owner": {
+    "name": "Zoran Stevovic"
+  },
+  "plugins": [
+    {
+      "name": "serbian-copy",
+      "source": {
+        "source": "github",
+        "repo": "zstevovich/serbian-copy"
+      },
+      "description": "Srpski marketinški copy — doktrina, domaći korpus i skener mašinskih obrazaca za sajt, deck, PR i social",
+      "version": "0.9.0",
+      "author": {
+        "name": "Zoran Stevovic"
+      },
+      "category": "writing",
+      "repository": "https://github.com/zstevovich/serbian-copy",
+      "license": "MIT"
+    }
+  ]
+}
